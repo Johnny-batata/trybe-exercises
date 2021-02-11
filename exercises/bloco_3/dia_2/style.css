@@ -1,0 +1,17 @@
+body{
+    font-size: 16px; background-color: rgb(235, 205, 210);   line-height: normal; text-align: left; 
+} h1{
+    font-family: sans-serif;   font-weight: bold; text-decoration: underline;
+} 
+p {
+    font-weight: 600;
+    font-size:3em; font-weight: bold ;
+}
+#Amarelo{
+    background-color: yellow; color:blue 
+        } #Vermelho{
+    background-color: red; color:blue 
+}
+#Marrom{
+    background-color: brown; color:blue  
+} 
