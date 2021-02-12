@@ -1,0 +1,12 @@
+.centralizar{
+text-align: center;
+}
+li:hover {
+    background-color:red
+} 
+li:active{
+    color: blanchedalmond;
+}
+ul{
+    list-style: none;
+}
