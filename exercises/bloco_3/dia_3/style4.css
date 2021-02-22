@@ -1,0 +1,49 @@
+.lista{
+    background-color: yellow;
+} 
+.color{
+color: red;
+}
+.italic{
+    
+    font-size: 40px;
+    border:black solid 1px
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+li.par em{
+color:green
+}
+li.primo em{
+    text-transform: uppercase
+}
+.color-blue {
+color: blue;
+}
+.java{
+    background-color: pink;
+
+}
+ul li.stack a:hover{
+background-color:orange;
+}
+ul li.schools a:hover
+{
+    background-color: green;
+}
+ul li.mdn a:hover
+{
+    background-color: black;
+}
+ul li.devDocs a:hover
+{
+    background-color: yellow;
+}
+ul li.trybe a:hover
+{
+    background-color: green;
+}
