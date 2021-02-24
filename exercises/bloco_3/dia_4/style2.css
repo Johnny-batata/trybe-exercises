@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(188, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+.aside{
+    float: right;
+    width: 370px;
+    height: 276px;
+    
+}
+h3{
+    background-color: red;
+    border: black;
+    color: white;
+    
+}
+.italic{
+    font-style: italic;
+}
+table, tr, th, td {
+    border: 2px solid black;
+    background-color: blanchedalmond;  
+}
+.section-width{
+margin-bottom: 90px;
+
+}
+h2{
+    font-size: 2em;
+}
+footer{
+    position: relative;
+}
+.bold, footer{
+    font-weight: bold;
+}
+
+#header, #footer-nav{
+display: block;
+background-color: rgb(134, 134, 221);
+color: black;
+}
+#nav-bar li, footer{
+    background-color: red;
+    border: 2px solid black;
+    padding: 26px, 10px;
+    margin: 2px;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
