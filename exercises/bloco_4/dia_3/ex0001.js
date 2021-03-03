@@ -49,8 +49,8 @@ let n = 5
 let linhasDoAsterisco = ""; 
 
 for(linha = 5; linha > 0; linha --){
-    linhasDoAsterisco += "*";
+    linha += ""
+
+    console.log(linhasDoAsterisco)
     } 
-    for(c = 0; c < linha; c + +){
-        console.log(linha+ "  ");    
-    } 
+    
