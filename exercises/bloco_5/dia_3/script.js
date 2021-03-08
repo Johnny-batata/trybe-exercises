@@ -108,3 +108,37 @@ function ZoomOut() {
 };
 zoomIn();
 ZoomOut();
+
+function newTask (task) {
+  let pai = document.getElementsByClassName('my-tasks')[0];
+  let newTaskElement = document.createElement ('span');
+  newTaskElement.innerHTML = task;
+  pai.appendChild(newTaskElement);  
+}   
+newTask ('cozinhar')
+
+
+function newTaskSubtitle (color) {
+  let pai = document.getElementsByClassName('my-tasks')[0];
+  let newTaskElement = document.createElement ('div');
+  newTaskElement.className = 'task'
+  newTaskElement.style.backgroundColor = color;
+  pai.appendChild(newTaskElement);
+}   
+newTaskSubtitle ('red') 
+
+function setTaskClass() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let myTasks = document.querySelector('.task');
+
+  myTasks.addEventListener('click', function(event) {
+    if (selectedTask.length === 0) {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task';
+    }
+  });
+};
+
+setTaskClass();
+
