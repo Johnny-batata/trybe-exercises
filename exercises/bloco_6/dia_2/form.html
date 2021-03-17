@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+<link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+<body>
+  <form action="" method="get">
+ <fieldset>
+   <p>Nome:</p>
+   <input type="text" id="name" class="input" placeholder="Digite o nome" maxlength="40" required>
+   <br>
+   <p>Email:</p>
+   <input type="email" id="email" class="input"  class="form__input form-control"placeholder="Digite o e-mail" maxlength="50" required>
+   <p>CPF:</p>
+   <input type="text" id="cpf"  class="input" placeholder="Digite o CPF" maxlength="11" required>
+   <p>Endereço:</p>
+   <input type="text" id="endereço" class="input" placeholder="Digite o endereço" maxlength="200" required>
+   <p>Cidade:</p>
+   <input type="text" id="cidade" class="input2" placeholder="Digite a cidade" maxlength="28" required>
+   <p>Estado:</p>
+   <label for="estado">
+    <select name="estado" id="estado" required></select>
+  </label>
+  <br>
+  <label for="imovel1">
+    <input type="radio" id="imovel1" name='imovel' value='Apartamento'>Casa
+  </label>
+  <label for="imovel2">
+    <input type="radio" id='imovel2' name='imovel' value='Casa' required>Apartamento
+  </label>
+   
+ </fieldset>
+
+ <fieldset>
+   <p>Insira o seu currículo resumido:</p>
+<textarea name="curriculo" id="curriculo"  cols="30" rows="10" maxlength="1000" required placeholder="Insira aqui"></textarea>
+<p>Cargo:</p>
+<input type="text" placeholder="Digite o cargo"  required maxlength="40">
+<br>  
+<input type="text" name="cargo" id="cargo" maxlength="500" placeholder="Descreva o cargo"><>
+<p>Data de inicio:</p>
+<input type="text" id='data-calendario'>
+
+<button id="reset">Resetar informações</button>
+<button id='send' type="submit">Envie</button>
+ </fieldset>
+<div class="resultado"></div>
+
+  </form>
+  
+<script src="script.js"></script>
+
+<link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+<script src="dist/js/DatePickerX.min.js"></script>
+<script src="dist/js/just-validate.min.js"></script>
+
+</body>
+</html>
