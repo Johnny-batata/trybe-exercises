@@ -23,13 +23,15 @@
 
 //exercício 2
 
-// const frase = 'Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!' 
-// const numbers = [13, 3, 4, 10, 7, 2]
-// const oddsSort = numbers.sort((a, b) => a - b);
+const frase = 'Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!' 
+const numbers = [13, 3, 4, 10, 7, 2]
+const oddsSort = numbers.sort((a, b) => a - b);
 
-// const oddsAndEvens = (param) => (param === true  ? `${oddsSort}\n${frase}` : `Não tem nada n doido rum` )
+const oddsAndEvens = (param) => (param === true  ? `${oddsSort}\n${frase}` : `Não tem nada n doido rum` )
 
-// console.log(oddsAndEvens(true)) 
+console.log(oddsAndEvens(true)) 
+
+
 
 
 
