@@ -68,36 +68,38 @@ const books = [
 const expectedResult = false;
 
 
-//   function authorUnique() {
-//     // escreva seu código aqui
-//     return books.every((book) => 
-//     books.some((bookSome) =>
-//         (bookSome.author.birthYear === book.author.birthYear
-//         && bookSome.author.name !== book.author.name
-//         ) ));
-//   }
-//   console.log(authorUnique(books))
+function authorUnique() {
+// escreva seu código aqui
+    return books.every((book) => 
+    books.some((bookSome) =>
+        (bookSome.author.birthYear === book.author.birthYear
+        && bookSome.author.name !== book.author.name
+        ) ));
+  }
+  console.log(authorUnique(books))
 
 //   console.log(books)
-let releaseDates= []
-books.forEach((book) =>
- releaseDates.push( book.author.birthYear))
- console.log(releaseDates)
+// let releaseDates = []
+// books.forEach((book) =>
+//  releaseDates.push( book.author.birthYear))
+//  console.log(releaseDates)
 
-  function someAuthor(book) {
-    return books.some((bookSome) => {
+//   function someAuthor(book) {
+//     return books.some((bookSome) => {
 
-    let count = [];
+//     let count = [];
 
-        if(bookSome.author.birthYear === book) {
-            count.push(bookSome.author.birthYear);
-        } 
-        console.log(count)
-    }    
-    );       
-}
+//         if(bookSome.author.birthYear === book) {
+//             count.push(bookSome.author.birthYear);
+//           console.log(count);
+//           console.log(bookSome.author.birthYear)
+//         } 
+//         console.log(count)
+//     }    
+//     );       
+// }
 
-someAuthor(releaseDates)
+// someAuthor(releaseDates)
 
   
 
