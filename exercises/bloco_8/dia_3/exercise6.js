@@ -75,7 +75,7 @@ function oldBooks() {
   // escreva seu código aqui
   return books.filter((book) => {
     if(book.releaseYear < 1961) {
-        return book
+        return book;
     }
   }).map((book) => book.name)
 }
